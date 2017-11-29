@@ -11,7 +11,7 @@ except KeyError:
 try:
     repo = locals()['_owner']
 except:
-    repo = 'ywangd'
+    repo = 'dougbeal'
 
 _IS_UPDATE = '_IS_UPDATE' in locals()
 
@@ -19,7 +19,7 @@ TMPDIR = os.environ.get('TMPDIR', os.environ.get('TMP'))
 URL_ZIPFILE = 'https://github.com/{}/stash/archive/{}.zip'.format(repo, branch)
 TEMP_ZIPFILE = os.path.join(TMPDIR, '{}.zip'.format(branch))
 TEMP_PTI = os.path.join(TMPDIR, 'ptinstaller.py')
-URL_PTI = 'https://raw.githubusercontent.com/ywangd/pythonista-tools-installer/master/ptinstaller.py'
+URL_PTI = 'https://raw.githubusercontent.com/dougbeal/pythonista-tools-installer/master/ptinstaller.py'
 
 print('Downloading {} ...'.format(URL_ZIPFILE))
 

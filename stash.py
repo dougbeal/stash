@@ -2,7 +2,7 @@
 """
 StaSh - Pythonista Shell
 
-https://github.com/ywangd/stash
+https://github.com/dougbeal/stash
 """
 
 __version__ = '0.6.20'
